@@ -296,8 +296,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
-  m_LocalRotation: {x: 0.2993807, y: 0.08718153, z: -0.027481552, w: 0.9497449}
-  m_LocalPosition: {x: -0.6605537, y: 7, z: -9.542883}
+  m_LocalRotation: {x: 0.29687124, y: -0.15052918, z: 0.04745015, w: 0.9417839}
+  m_LocalPosition: {x: 6.1370497, y: 7, z: -7.541789}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -864,7 +864,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.7774799, y: 1}
+    m_SensorSize: {x: 1.7761394, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -880,8 +880,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1285166486}
-  m_LocalRotation: {x: 0.2993807, y: 0.08718153, z: -0.027481552, w: 0.9497449}
-  m_LocalPosition: {x: -0.6605537, y: 7, z: -9.542883}
+  m_LocalRotation: {x: 0.29687124, y: -0.15052918, z: 0.04745015, w: 0.9417839}
+  m_LocalPosition: {x: 6.1370497, y: 7, z: -7.541789}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1017,6 +1017,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1940850547}
+  - component: {fileID: 1940850548}
   m_Layer: 0
   m_Name: CameraController
   m_TagString: Untagged
@@ -1031,14 +1032,26 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1940850546}
-  m_LocalRotation: {x: -0, y: 0.09141039, z: -0, w: 0.9958133}
-  m_LocalPosition: {x: 1.16, y: 0, z: 0.29}
+  m_LocalRotation: {x: 0, y: -0.1578307, z: 0, w: 0.9874662}
+  m_LocalPosition: {x: 3.02, y: 0, z: 1.96}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 11
-  m_LocalEulerAnglesHint: {x: 0, y: 10.49, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -18.162, z: 0}
+--- !u!114 &1940850548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1940850546}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7cac73cc6fc7f14a9ad35cf5004c5a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2085200214
 GameObject:
   m_ObjectHideFlags: 0
