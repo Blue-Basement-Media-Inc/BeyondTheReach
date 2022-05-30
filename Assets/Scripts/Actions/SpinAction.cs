@@ -35,4 +35,9 @@ public class SpinAction : BaseAction
     }
 
 
+    public override string GetActionName()
+    {
+        return "Spin";
+    }
+    
 }
