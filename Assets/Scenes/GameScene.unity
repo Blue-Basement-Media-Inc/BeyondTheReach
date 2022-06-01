@@ -553,7 +553,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
-  m_LocalRotation: {x: 0.29687124, y: -0.15052912, z: 0.047450125, w: 0.9417839}
+  m_LocalRotation: {x: 0.29687124, y: -0.15052915, z: 0.047450136, w: 0.9417839}
   m_LocalPosition: {x: 6.1370497, y: 7, z: -7.541789}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -2255,7 +2255,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1285166486}
-  m_LocalRotation: {x: 0.29687124, y: -0.15052912, z: 0.047450125, w: 0.9417839}
+  m_LocalRotation: {x: 0.29687124, y: -0.15052915, z: 0.047450136, w: 0.9417839}
   m_LocalPosition: {x: 6.1370497, y: 7, z: -7.541789}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -2763,6 +2763,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: UnitEnemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 7400975434509639375, guid: 400cd0a8288305b469243396097f391c,
+        type: 3}
+      propertyPath: health
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
